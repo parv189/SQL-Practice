@@ -1,0 +1,61 @@
+SQL-Notes
+to manage RDB
+
+DB - Collection of related Information
+to store DB - On paper, In your mind, In files
+
+Computer + Databases = <3
+ex-Amazone.com
+easy to store
+handle security
+
+DBMS - Special software program, helps us to manage,create,read,update,delete database
+provide security,backup,export and import data,interaction with website
+ex-databases of Amazone.com
+
+C.R.U.D - Create,Read(Retrieve),Update,Delete
+core four operation of DBMS
+
+RDBMS(SQL) vs DBMS(noSQL)
+RDBMS - Organized in one or more tables,Each table has rows and colums and a unique key identifies each row
+DBMS - Key-value store,json,graphs,Flexble tables
+
+SQL - Structured Query Language
+SQL - language used to intraction with RDB 
+ex - crud,backup,security,user management
+
+N-RDBMS - non relational
+ex - mongoDB,dynamoDB,apache cassandra,firebase
+
+Database Queries - requests made to the dbms for specific information
+- asking DBMS to get some specific piece information
+
+Tables and keys
+
+table - made up of rows and columns
+ex-student 
+column - define an attribute of table ex-name,id
+row - represent individual entree ex-raj,24
+
+primary key - each table has a primary key which specifies specific row ex-id
+used to differentiate between two rows
+denoted with underline
+
+foreign key - it's primary key of other table or same table
+refrence to the other table row
+can have more then 1 foreign keys
+
+composite key - when 1 key can't identify each row uniquely then we use more then 1 attribute as composite key
+it's two columns uniquely identify a row
+
+SQL is not programing language it's query language used to intract with RDB, RDB is table format database managed by 
+RDBMS, RDBMS is s software which used to manage,crud,administrative task,backup,intract with applications using SQL
+ 
+Queries Syntex examples:
+ 
+SELECT employee.name, employee.age
+FROM employee
+WHERE employee.salary > 30000;
+
+Datatypes:
+INT,DECIMAL(M,N),VARCHAR(1),BLOB,DATE,TIMESTAMP
