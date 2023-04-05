@@ -1,3 +1,6 @@
+USE SQL_Practice;
+GO 
+
 CREATE SCHEMA a
 
 CREATE TABLE a.inventory(

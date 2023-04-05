@@ -50,6 +50,9 @@ FROM Customers c LEFT JOIN Orders o ON c.Customers_ID = o.Customers_ID WHERE Ord
 SELECT * 
 FROM Customers c RIGHT JOIN Orders o ON c.Customers_ID = o.Customers_ID;
 
+/*FULL OUTER JOIN*/
+SELECT * FROM Customers FULL OUTER JOIN Orders ON Customers.Customers_ID = Orders.Customers_ID;
+
 /*SELF JOIN*/
 SELECT lhs.Customers_ID 'ID1',
 rhs.Customers_ID 'ID2',

@@ -1,3 +1,6 @@
+USE SQL_Practice;
+GO 
+
 CREATE TABLE countries(
 country_id INT NOT NULL,
 country_name VARCHAR NOT NULL,
@@ -72,4 +75,5 @@ department_id DECIMAL(4,0) FOREIGN KEY REFERENCES departments (department_id)
 );
 INSERT INTO employees VALUES (101,'Rohit','Sharma','RO@573','1234567813','2012-12-30',1,654325,2334,23,07);
 SELECT * FROM employees
-DROP TABLE IF EXISTS employees
+DROP TABLE IF EXISTS employees;
+
