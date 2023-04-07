@@ -1,4 +1,4 @@
-USE SQL_Practice;
+USE SQL_Practice2;
 GO
 
 EXEC sp_help 'dbo.Employee';
